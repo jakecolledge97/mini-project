@@ -1,0 +1,38 @@
+header, footer {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background-color: black;
+}
+header{
+    top: 0px;
+}
+
+footer{
+    display: none;
+    bottom: 0px;
+}
+/*.main-container{
+    position: relative;
+}*/
+/* Creates a container for user input buttons*/
+.user-options-container{
+    position: relative;
+    width: 1000px;
+    height: 30px;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* User and contact options */
+.user-info, .contact-me{
+    position: absolute;
+    width: 400px;
+    height: 30px;
+    background-color: cornflowerblue;
+    
+}
+.contact-me{
+    right: 0px;
+}
