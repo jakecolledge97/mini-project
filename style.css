@@ -1,3 +1,6 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
 header, footer {
     position: relative;
     width: 100%;
@@ -6,6 +9,11 @@ header, footer {
 }
 header{
     top: 0px;
+}
+body{
+    background-image: url(./imgs/geneva-gloval-website-hero-design.jpg);
+    background-repeat: none;
+    background-size: cover;
 }
 
 footer{
@@ -20,7 +28,7 @@ footer{
     position: relative;
     width: 1000px;
     height: 30px;
-    background-color: black;
+    background-color: none;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -30,9 +38,30 @@ footer{
     position: absolute;
     width: 400px;
     height: 30px;
-    background-color: cornflowerblue;
+    background-color: cornflowerblue;    
+    text-align: center;
+    line-height: 0px;
+    display: none;
     
 }
 .contact-me{
     right: 0px;
+}
+
+/* Area for the user input section */
+form{
+    
+    width: 1000px;
+    height: 400px;
+    background-color:rgb(219, 219, 219, 0.85);
+
+
+}
+.input-container{
+    width: 1000px;
+    height: 400px;
+    background-color: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;    
 }
